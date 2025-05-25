@@ -1,6 +1,6 @@
 const GoogleBtn = () => {
   const redirect = () => {
-    window.location.replace("http://localhost:4000/auth/google");
+    window.location.replace(`${import.meta.env.VITE_SERVER_URL}/auth/google`);
   };
   return (
     <>
